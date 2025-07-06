@@ -56,4 +56,27 @@ dkms.conf
 
 # keil调试
 *.dbgconf
-DebugConfig/
+2-1STM32工程模板/DebugConfig/
+2-1STM32工程模板/Listings/
+2-1STM32工程模板/Objects/
+2-1STM32工程模板/project.uvguix.jie
+2-1STM32工程模板/project.uvoptx
+
+#---keil MDK 临时文件---
+*.uvoptx
+*.uvguix*
+*.axf
+*.map
+*.lst
+
+#---编译生成文件---
+*.o
+*.d
+*.bin
+*.hex
+build/
+Debug/
+Release/
+
+#---其他系统文件---
+Thumbs.db
